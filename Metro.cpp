@@ -28,6 +28,12 @@ void Metro::interval(unsigned long interval_millis)
   this->interval_millis = interval_millis;
 }
 
+unsigned long Metro::elapsed()
+{
+  unsigned long now = millis();
+  return now - previous_millis;
+}
+
 uint8_t Metro::check()
 {
 

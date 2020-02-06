@@ -23,9 +23,9 @@
  Contributions by Paul Bouchier and Benjamin.soelberg
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-#ifndef Metro_h
-#define Metro_h
-#define NOCATCH-UP
+#ifndef Metro_h 
+#define Metro_h 
+#define NOCATCH_UP 
 
 #include <inttypes.h>
 
